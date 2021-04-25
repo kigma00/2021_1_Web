@@ -1,0 +1,615 @@
+/* 글꼴 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* 바디  */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 12);
+    background-repeat: cover;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+/* 윗 메뉴 */
+header {
+    background-color: rgb(10, 10, 14);
+    margin: 0;
+    padding: 30px;
+    
+}
+
+header #topMenu{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+header nav{
+    float: right;
+}
+
+header #topMenu h1{
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(172, 122, 236);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header a:hover {
+    color: rgb(25, 58, 58);
+}
+
+header a:active {
+    color: red
+}
+
+header .container nav ul {
+    list-style: none
+}
+
+header li {
+    display: inline;
+    padding: 0px 30px;
+    margin: 15px;
+    float: left;
+}
+
+ /* 배경사진 */
+#bgimg{
+    background: url(./img/back.jpg) 
+    no-repeat 0-400px;
+    height: 400px;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+
+
+
+#bgimg > .container > a{
+    
+    overflow: hidden;
+    padding-right: 40px;
+    padding-top: 300px;
+    text-align: center;
+    float: left;
+    
+}
+
+/* 프로필 */
+#profile{
+    background-color: white;
+    margin: 70px 150px;
+    padding: 40px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px; 
+}
+/* 프로필 박스 */
+#profile .profile-box{
+    margin: auto;
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* 프로필 사진 */
+#profile img{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    
+}
+
+#profile #person-img{
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+    width: 250px;
+    
+}
+
+.person-ip ul{
+    text-align-last: left;
+    float: right;
+    padding: 10px;
+    width: 60%;
+    margin: 10px;
+}
+
+.person-ip li{
+    list-style: none;  
+}
+
+.person-ip {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    line-height: 70px;
+    float: right;
+    width: 70%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.person-ip .ip{
+    font-weight: bold;
+    color: rgb(10, 10, 14);
+}
+
+/* 포트폴리오 */
+#portfolio{
+    background-color: white;
+    margin: 70px 150px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    height: 1000px;
+}
+
+
+#portfolio .leftwindow{
+    float: left;
+    height: 850px;
+    width: 40%;
+    overflow: hidden;
+}
+
+#portfolio .leftwindow .eduli ul{
+    text-align-last: center;
+    width: 67%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#portfolio .leftwindow .exp ul{
+    text-align-last: center;
+    width: 55%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#portfolio .rightwindow{
+    float: right;
+    height: 850px;
+    width: 55%;
+    overflow:auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#portfolio .rightwindow .image-RE{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio .rightwindow .image-RE img{
+    border: 1px solid black;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+#portfolio .rightwindow .image-tool{
+    height: auto;
+}
+
+#portfolio .rightwindow .image-tool img{
+    height: 200px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+/* 팀 프젝 */
+#teamproject{
+    background-color: white;
+    margin: 70px 150px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#teamproject .project-reason{
+
+    height: 500px;
+    margin: auto;
+    float: left;
+    /* background-color: chocolate; */
+    margin-top: 40px;
+}
+
+#teamproject .project-reason .imgbox{
+    float: left;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#teamproject .projectsubject .subjectxt{
+    float: right;
+    height: 300px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align-last: left;
+    overflow: auto;
+    /* background-color: blanchedalmond; */
+}
+
+#teamproject .projectsubject .subjectxt p{
+    margin: 10px;
+    padding: 0;
+}
+
+.project-team tbody th, td{
+    border: 1px solid black;
+}
+
+#teamproject .leftgo{
+    float: left;
+    width: 35%;
+    height: 600px;
+    /* background-color: brown; */
+    overflow: auto;
+}
+
+#teamproject .leftgo .webimg{
+    /* background-color: chartreuse; */
+    height: 190px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#teamproject .leftgo .webimg img{
+    width: auto;
+    height: 60%;
+    padding: 4px;
+    /* float: left; */
+}
+
+#teamproject .leftgo .webimg p{
+    text-align-last: left;
+    /* background-color: tomato; */
+    /* height: 100%; */
+}
+
+#teamproject .rightgo{
+    float: right;
+    width: 65%;
+    height: 600px;
+    /* background-color: chartreuse; */
+    
+}
+
+#teamproject .rightgo .project-team table{
+    margin: auto;
+    width: 95%;
+    height: 400px;
+}
+
+/* 밑 메뉴 */
+footer .container{
+    background: rgb(10, 10, 14);
+    margin: auto;
+    padding-top: 10px;
+    color: rgb(172, 122, 236);
+    width: 100%;
+    height: 40px;
+}
+
+
+/* 미디어 쿼리 */
+
+/* 모바일 */
+@media (max-width: 768px) {
+    .container, 
+    #profile, 
+    #portfolio,
+    #teamproject
+    {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+        padding : 0;
+        text-align-last: center;
+        float: none;
+    }
+
+/* 헤더 */
+    header {
+        margin: 0;
+        padding: 0;
+        padding-top: 1px;
+    }
+
+    #topMenu{
+        /* background-color: tomato; */
+        padding: 0;
+        margin: 0;
+    }
+
+
+/* 배경 */
+    #bgimg {
+        background-image: none;
+        background-color: white;
+        height: 70px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px;
+        width: 70%;
+        border-radius: 50px;
+    }
+
+    #bgimg .container{
+        float: none;
+        margin: auto;
+        padding: 0;
+        width: 95%;
+    }
+
+    #bgimg .container a{
+        margin: 0;
+        padding: 5px;
+        float: none;
+        text-decoration-line: none;
+    }
+
+/* 프로필 */
+    #profile{
+        padding: 0;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    #profile .profile-box{
+        float: none;
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+    }
+
+    #profile #person-img{
+        margin: auto;
+        padding: 10px         
+    }
+
+    #profile #person-img img{
+        margin: auto;
+        width: 250px;
+        height: 300px;
+    }
+
+    #profile .person-ip{
+        
+        margin: auto;
+        width: 100%;
+        padding: 1px;
+    }
+
+    #profile .person-ip ul{
+        margin: auto;
+        float: none;
+        width: 95%;
+    }
+
+    #profile .person-ip ul li{
+        text-align-last: center;
+    }
+
+/* 포트폴리오 */
+    #portfolio{
+        margin: auto;
+        margin-top: 30px;
+        padding: 0;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    #portfolio .leftwindow{
+        float: none;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    #portfolio .leftwindow .edu{
+        margin: auto;
+        width: 80%;
+    }
+
+    #portfolio .leftwindow .exp{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+    #portfolio .rightwindow{
+        float: none;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 20px;
+        width: 90%;
+        height: auto;
+    }
+    #portfolio .rightwindow .image-tool{
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        height: auto;
+        text-decoration: none;
+    }
+
+/* 팀프젝 */
+    #teamproject{
+        margin: auto;
+        margin-top: 30px;
+        padding: 0;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    #teamproject .leftgo{
+        float: none;
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        padding: 0;
+        text-align-last: center;
+    }
+
+    #teamproject .rightgo{
+        float: none;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    #teamproject .rightgo table {
+        width: 100%;
+        height: auto;
+    }
+
+    #teamproject .project-reason{
+        margin: auto;
+        padding-bottom: 10px;
+        float: none;
+        width: 95%;
+        height: auto;
+               
+    }
+
+    #teamproject .project-reason .imgbox{
+        float: none;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    #teamproject .project-reason .imgbox img{
+        width: 80%;
+    }
+
+
+    #teamproject .project-reason .subjectxt{
+        float: none;
+        margin: auto;
+        width: 95%;
+        height: 100%;
+        text-align-last: left;
+    }
+
+    #teamproject .project-reason .subjectxt p{
+        float: left;
+        text-align-last: ri;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .container, 
+    #profile, 
+    #portfolio,
+    #teamproject
+    {
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+        padding : 0;
+        text-align-last: center;
+        float: none;
+    }
+
+    #proifile{
+        padding: 0;
+        margin: auto;
+    }
+
+    #portfolio{
+        padding: 0;
+        height: auto;
+    }
+
+    #portfolio .leftwindow{
+        height: auto;
+    }
+
+    #portfolio .rightwindow{
+        height: auto;
+    }
+
+    #teamproject{
+        height: fit-content;
+    }
+
+    #teamproject .leftgo{
+        height: auto;
+        height: 600px;
+        overflow: auto;
+    }
+
+    #teamproject .rightgo{
+        height: 20%;
+    }
+
+    #teamproject .project-reason{
+        height: auto;
+        margin: auto;
+    }
+
+    #teamproject .project-reason .imgbox{   
+        float: none;
+        margin: auto;
+        overflow: visible;
+        width: auto;
+    }
+
+    #teamproject .project-reason .subjectxt{
+        float: none;
+        margin: auto;
+        width: fit-content;
+        height: auto;
+        overflow: visible;
+    }
+
+}

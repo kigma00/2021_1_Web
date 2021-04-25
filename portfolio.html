@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GeonHee Kim's  Homepage">
+    <meta name="keywords" content="HTML5, CSS3, Javascript, Web, KimGeonHee, 김건희, 웹">
+    <meta name="author" content="GeonHee Kim, 김건희">
+    <link rel="stylesheet" href="./hpage.css">
+    <title>KGH's | Portfolio</title>
+
+</head>
+
+<body>
+
+<!-- 윗 메뉴 -->
+    <header>
+        <div class="container"> 
+                <div id="topMenu">
+                    <h1 style="color: white;">
+                        GeonHee_Kim's
+                    </h1>
+                </div>  
+                <nav>
+                    <ul style=" margin: 0; padding: 0;">  
+                        <li><a href="./index.html">All</a></li>        
+                        <li><a href="./profile.html">Profile</a></li>           
+                        <li><a href="./portfolio.html">Portfolio</a></li>           
+                        <li><a href="./teamproject.html">Team Project</a></li>           
+                        <li><a href="https://www.youtube.com/watch?v=vebOH7UxHSo">Intro video</a></li>                     
+                    </ul>        
+                </nav>
+            
+        </div>
+    </header>
+
+ <!-- 배경사진 -->
+    <section id="bgimg">
+        <div class="container">
+            <a href="https://hi-bald-person.tistory.com/" target="_blank">
+                <img src="./img/blog.png" alt="블로그" style="height: 70px; overflow: hidden;">
+            </a>
+            <a href="https://www.google.co.kr/" target="_blank">
+                <img src="./img/gg.png" alt="구글" style="height: 70px; overflow: hidden;">
+            </a>
+        </div>
+    </section>
+
+<!-- 포트폴리오 -->
+    <section id="portfolio">
+        <div class="container">
+
+            <div class="leftwindow">
+                <section id="person-img">
+                    <img src="./img/제리.jpg" 
+                    onmouseover="this.src='./img/김건희.jpg'"
+                    onmouseout="this.src='./img/제리.jpg'"
+                    alt="응애" 
+                    style="border-radius: 50%; margin-top: 20px; width: 200px; height: 240px;"
+                    >
+                </section>
+                    
+                <div class="edu">
+                    <h1 style="font-size: 30px;">Education</h1>
+                    <div class="eduli">
+                        <ul>
+                            <li>2016. 03 능곡고등학교 입학</li>
+                            <li>2019. 02 능곡고등학교 졸업</li>
+                            <li>2020. 03 중부대학교 정보보호학전공 입학</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="exp">
+                    <h1 style="font-size: 30px;">Exprience</h1>
+                    <ul>     
+                        <li style="font-size: 30px;">JB SCP activity</li>
+                        <br>
+                        <li>- 2020 winter vacation -</li>  
+                        <li>abexs' crackme</li>
+                        <li>Lena Tutorial</li>
+                        <li>Code Injection</li>
+                        <li>endian</li>
+                        <br>
+                        <li>- 2021 first semester-</li>
+                        <li>minesweeper reversing</li>
+                        <li>computer structure</li>
+                        <li>ASCIIcode & Unicode</li>
+                        <br>
+                    </ul>
+                </div>   
+            </div>
+
+            <div class="rightwindow">
+                <div class="portfolio-Reversing">
+
+                    <h1 style="font-size: 30px;">Interests : Reversing</h1>
+                    <div class="image-RE">
+                        <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788965401285" target="_blank">  
+                        <img src="./img/리버싱입문.jpg" alt="리버싱입문">
+                        </a>
+                        <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966260522&orderClick=LEa&Kc=" target="_blank">
+                        <img src="./img/리버싱핵심원리.jpg" alt="나뭇잎 책">
+                        </a>
+                    </div>
+
+                    <p><h1 style="font-size: 30px;">What is Reversing?</h1>리버스 엔지니어링 또는 역공학은 장치 또는 시스템의<br>기술적인 원리를 그 구조분석을 통해 발견하는 과정이다.</p>
+                    
+                    <h1 style="font-size: 30px;">Reversing Tool</h1>
+                    <div class="image-tool">
+                        <a href="https://namu.wiki/w/IDA" target="_blank">
+                            <img src="./img/IDA.jpg" alt="IDA">
+                        </a>
+                        <a href="https://ko.wikipedia.org/wiki/OllyDbg" target="_blank">
+                            <img src="./img/olly.png" alt="ollydbg">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 밑 메뉴 -->
+    <footer>
+        <div class="container">
+        &copy;2021 | GeonHee Kim
+        </div>    
+    </footer>
+</body>
+</html>
